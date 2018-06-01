@@ -8,3 +8,15 @@ img {
 	border: gray dashed 3px;
 	width: 300px;
 }
+
+#right-column {
+	background-color: lightgreen;
+	margin: 0px;
+	padding: 20px;
+	width: 50%;
+	height: 100%;
+	position: fixed;
+	right: 0px;
+	top: 0px;
+
+}

@@ -7,8 +7,23 @@
 	<link rel="stylesheet" href="assets/css/main.css" />
 </head>
 <body>
-	<div>Squares: <span id="total-squares">0</span></div>
-	<img src="https://i.imgur.com/ioqMOLh.jpg" onclick="squares(1);">
+	<div id="middle-column">
+		<span>Squares: <span id="total-squares">0</span></span> <br>
+		<img src="https://i.imgur.com/ioqMOLh.jpg" onclick="squares(1);"> <br>
+		<button>Previous</button>
+		<button>Next</button>
+	</div>
+	
+	
+	<div id="right-column">
+		<h3 title="shop description">Shop</h3>
+		<ul>
+			<li>item 1; cost a lot <button>Buy</button></li> 
+			<li>item 2</li>
+		</ul>
+	</div>
+
+	<!-- Script -->
 	<script src="assets/js/main.js"></script>
 </body>
 </html>
