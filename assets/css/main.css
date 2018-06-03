@@ -20,3 +20,16 @@ img {
 	top: 0px;
 
 }
+
+#left-column {
+	background-color: lightgreen;
+	margin: 0px;
+	padding: 20px;
+	width: 50%;
+	height: 100%;
+	position: fixed;
+	left: 0px;
+	top: 0px;
+
+}
+
