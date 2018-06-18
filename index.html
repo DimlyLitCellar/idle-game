@@ -8,20 +8,44 @@
 </head>
 <body>
 	<div id="middle-column">
-		<span>Squares: <span id="total-squares">0</span></span> <br>
-		<img src="https://i.imgur.com/ioqMOLh.jpg" onclick="squares(1);"> <br>
+		<span>Blobs: <span id="total-blobs">0</span></span> <br>
+		<img src="assets/images/red_blob.png" onclick="blobs(1);"> <br>
 		<button>Previous</button>
 		<button>Next</button>
 	</div>
 	
 	
 	<div id="right-column">
-		<h3 title="shop description">Shop</h3>
-		<ul>
-			<li>item 1; cost a lot <button>Buy</button></li> 
-			<li>item 2</li>
-		</ul>
+		<h3 title="who is this one?">Blob Collecting Worker</h3>
+		<span>"Click the blob to get some blobs."</span>
+		<hr>
+		<h3 title="there's a shop here?">Shop</h3>
+		<ol>
+			<li>
+				<ul>
+					<li>Power Up</li>
+					<li>Costs: <span id="powerUpCost">10</span> blobs</li>
+					<li>Description</li>
+					<li>Your Level: <span id="powerUpLevel">1</span></li>
+					<li><button id="powerUpBuyOne">Buy One</button></li>
+				</ul>
+			</li>
+			<br>	
+			<li>
+				<ul>
+					<li>Mini Blob Worker</li>
+					<li>Costs: <span>20</span> blobs</li>
+					<li>Description</li>
+					<li>Your Amount: <span>0</span></li>
+					<li><button>Buy One</button></li>
+				</ul> 
+			</li> 
+		</ol>
+		
+		<hr>
 	</div>
+
+
 
 	<!-- Script -->
 	<script src="assets/js/main.js"></script>
