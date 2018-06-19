@@ -13,19 +13,25 @@
 		<hr>
 		<h3 title="Inventory">Inventory</h3>
 		<ul>
-			<li>
+			<li>Blobs: <span id="total-blobs">0</span></li>
+			<li>Gold Coins: <span>0</span></li>
+			<li> Pickaxe
 				<ul>
-					<li>Pickaxe</li>
-					<li>Description: Destroy your life and start a new one. >8)</li>
+					<li>Destroy your life and start a new one. >8)</li>
 					<li><button>Use</button></li>
 				</ul>
 			</li> 
-			<li>Ores<button>Sell</button></li> 
+			<li> Ores
+				<ul>
+					<li>The treasured bones of the blobs. Sell this for gold coins.</li>
+					<li><button>Sell</button></li>
+				</ul>
+			</li> 
 		</ul>
 	</div>
 	
 	<div class="column" id="middle-column">
-		<span>Blobs: <span id="total-blobs">0</span></span> <br>
+		<span>Click the blob!</span> <br>
 		<img src="assets/images/red_blob.png" id="redBlob"> <br>
 		<button>Previous</button>
 		<button>Next</button>
@@ -38,21 +44,19 @@
 		<hr>
 		<h3 title="there's a shop here?">Shop</h3>
 		<ol>
-			<li>
+			<li> Power Up
 				<ul>
-					<li>Power Up</li>
+					<li>Power up your click to get one extra blob per click.</li>
 					<li>Costs: <span id="powerUpCost">10</span> blobs</li>
-					<li>Description: Power up your click to get one extra blob per click</li>
 					<li>Your Level: <span id="powerUpLevel">0</span></li>
 					<li><button id="powerUpBuyOne">Buy One</button></li>
 				</ul>
 			</li>
 			<br>	
-			<li>
+			<li> Mini Blob Worker
 				<ul>
-					<li>Mini Blob Worker</li>
+					<li>Get a blob every second for every worker you have.</li>
 					<li>Costs: <span id="miniBlobWorkerCost">20</span> blobs</li>
-					<li>Description: Get a blob every second for every worker you have.</li>
 					<li>Your Amount: <span id="miniBlobWorkerAmount">0</span></li>
 					<li><button id="miniBlobWorkerBuyOne">Buy One</button></li>
 				</ul> 
