@@ -1,4 +1,13 @@
 
+body {
+	user-drag: none; 
+	user-select: none;
+	-moz-user-select: none;
+	-webkit-user-drag: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+}
+
 img {
 	user-drag: none; 
 	user-select: none;
@@ -10,27 +19,39 @@ img {
 	width: 300px;
 }
 
+.column {
+	float: left;
+	top: 0px;
+	position: fixed;
+    width: 33.33%;
+    margin: 0px;
+    padding: 20px;
+    height: 100%;
+    box-sizing: border-box;
+    overflow: scroll;
+}
+
+/*
+body:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+*/
+
 #right-column {
 	background-color: lightgreen;
-	margin: 0px;
-	padding: 20px;
-	width: 33.3%;
-	height: 100%;
-	position: fixed;
 	right: 0px;
-	top: 0px;
+}
 
+#middle-column {
+	background-color: lightblue;
+	left: 33.3%;
+	right: 33.3%;
 }
 
 #left-column {
 	background-color: lightgreen;
-	margin: 0px;
-	padding: 20px;
-	width: 33.3%;
-	height: 100%;
-	position: fixed;
 	left: 0px;
-	top: 0px;
-
 }
 
