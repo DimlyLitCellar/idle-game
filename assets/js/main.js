@@ -30,7 +30,7 @@ powerUpBuyOneEl.addEventListener("click", function() {
 		totalBlobs -= price;
 		powerUpLevelEl.innerHTML = powerUpLevel;
 		totalBlobsEl.innerHTML = totalBlobs;
-		powerUpCostEl = Math.floor(10 * Math.pow(1.1, powerUpLevel));
+		powerUpCostEl.innerHTML = Math.floor(10 * Math.pow(1.1, powerUpLevel));
 	}
 });
 
