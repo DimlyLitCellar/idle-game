@@ -7,25 +7,25 @@
 	<link rel="stylesheet" href="assets/css/main.css" />
 </head>
 <body>
-	<div id ="left-column">
-		<h3 title ="Inventory"><Inventory</h3>
+	<div class="column" id ="left-column">
+		<h3 title="Inventory">Inventory</h3>
 		<ul>
 			<li>Pickaxe<button>Use</button></li> 
 			<li>Ores<button>Sell</button></li> 
 		</ul>
 	</div>
 	
-	<div id="middle-column">
+	<div class="column" id="middle-column">
 		<span>Blobs: <span id="total-blobs">0</span></span> <br>
-		<img src="assets/images/red_blob.png" onclick="blobs(1);"> <br>
+		<img src="assets/images/red_blob.png" id="redBlob"> <br>
 		<button>Previous</button>
 		<button>Next</button>
 	</div>
 	
 	
-	<div id="right-column">
+	<div class="column" id="right-column">
 		<h3 title="who is this one?">Blob Collecting Worker</h3>
-		<span>"Click the blob to get some blobs."</span>
+		<span>"Get some blobs."</span>
 		<hr>
 		<h3 title="there's a shop here?">Shop</h3>
 		<ol>
@@ -34,7 +34,7 @@
 					<li>Power Up</li>
 					<li>Costs: <span id="powerUpCost">10</span> blobs</li>
 					<li>Description</li>
-					<li>Your Level: <span id="powerUpLevel">1</span></li>
+					<li>Your Level: <span id="powerUpLevel">0</span></li>
 					<li><button id="powerUpBuyOne">Buy One</button></li>
 				</ul>
 			</li>
