@@ -19,6 +19,10 @@ img {
 	width: 300px;
 }
 
+#redBlob {
+	width: 200px;
+}
+
 .column {
 	float: left;
 	top: 0px;

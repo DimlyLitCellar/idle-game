@@ -8,9 +8,18 @@
 </head>
 <body>
 	<div class="column" id ="left-column">
+		<h3>Your Profile</h3>
+		Click Power: <span id="clickPower">1</span>
+		<hr>
 		<h3 title="Inventory">Inventory</h3>
 		<ul>
-			<li>Pickaxe<button>Use</button></li> 
+			<li>
+				<ul>
+					<li>Pickaxe</li>
+					<li>Description: Destroy your life and start a new one. >8)</li>
+					<li><button>Use</button></li>
+				</ul>
+			</li> 
 			<li>Ores<button>Sell</button></li> 
 		</ul>
 	</div>
@@ -33,7 +42,7 @@
 				<ul>
 					<li>Power Up</li>
 					<li>Costs: <span id="powerUpCost">10</span> blobs</li>
-					<li>Description</li>
+					<li>Description: Power up your click to get one extra blob per click</li>
 					<li>Your Level: <span id="powerUpLevel">0</span></li>
 					<li><button id="powerUpBuyOne">Buy One</button></li>
 				</ul>
@@ -42,10 +51,10 @@
 			<li>
 				<ul>
 					<li>Mini Blob Worker</li>
-					<li>Costs: <span>20</span> blobs</li>
-					<li>Description</li>
-					<li>Your Amount: <span>0</span></li>
-					<li><button>Buy One</button></li>
+					<li>Costs: <span id="miniBlobWorkerCost">20</span> blobs</li>
+					<li>Description: Get a blob every second for every worker you have.</li>
+					<li>Your Amount: <span id="miniBlobWorkerAmount">0</span></li>
+					<li><button id="miniBlobWorkerBuyOne">Buy One</button></li>
 				</ul> 
 			</li> 
 		</ol>
